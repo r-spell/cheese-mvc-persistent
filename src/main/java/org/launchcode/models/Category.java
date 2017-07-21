@@ -22,6 +22,11 @@ public class Category {
 
     public Category() {}
 
+    public Category(String name) {
+        this();
+        this.name = name;
+    }
+
     public int getId() {
         return id;
     }
